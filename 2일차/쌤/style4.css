@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,ul,ol,li{font-family:"Noto Sans KR"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+/* content */
+.content{width:550px; margin:0 auto; overflow:hidden; }
+.content .box{float:left; width:35%;}
+.content .list{float:left;  width:65%;
+padding-left:10px; box-sizing:border-box; -webkit-box-sizing:border-box;
+}
+
+.content .box p{font-size:12px; color:#555; margin-top:8px;}
+.content .list ul li{font-size:12px; color:#555; line-height:145%; margin:5px 0;}

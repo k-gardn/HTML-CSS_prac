@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>NATE fun</title>
+  <link rel="stylesheet" href="style1.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+ </head>
+ <body>
+
+    <div class="fun">
+		<ul>
+			<li>
+				<p><img src="fun1.jpg" alt="fun1"></p>
+				<div>
+					<p>운세 | 봉신연의 평생운</p>
+					<p>자미두수로 알려주는 인생조언</p>
+				</div>
+			</li>
+			<li>
+				<p><img src="fun1.jpg" alt="fun1"></p>
+				<div>
+					<p>운세 | 봉신연의 평생운</p>
+					<p>자미두수로 알려주는 인생조언</p>
+				</div>
+			</li>
+			<li>
+				<p><img src="fun1.jpg" alt="fun1"></p>
+				<div>
+					<p>운세 | 봉신연의 평생운</p>
+					<p>자미두수로 알려주는 인생조언</p>
+				</div>
+			</li>
+			<li>
+				<p><img src="fun1.jpg" alt="fun1"></p>
+				<div>
+					<p>운세 | 봉신연의 평생운</p>
+					<p>자미두수로 알려주는 인생조언</p>
+				</div>
+			</li>
+			<li>
+				<p><img src="fun1.jpg" alt="fun1"></p>
+				<div>
+					<p>운세 | 봉신연의 평생운</p>
+					<p>자미두수로 알려주는 인생조언</p>
+				</div>
+			</li>
+		</ul>
+    </div>
+  
+ </body>
+</html>

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,ul,ol,li{font-family:"Nanum Gothic"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+/* 레이아웃 */
+.fun{width:350px; margin:50px auto;}
+
+.fun .webtoon {overflow:hidden; margin:10px 0;}
+.fun .webtoon .toon_img{width:40%;float:left;}
+.fun .webtoon .txt{float:left;padding-top:15px;font-size:13px;}
+.fun .webtoon .txt p + p{color:#555; margin:3px 0;}

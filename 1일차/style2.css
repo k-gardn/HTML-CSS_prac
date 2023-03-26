@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* 공통스타일 */
+body,h1,h2,h3,h4,h5,h6,p,table, tr,th,td{font-family:"돋움"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0; }
+
+.table_style{
+	width:400px;
+	height: 100%;
+	margin: 100px auto;
+}
+
+
+.table_style td{padding: 10px}
+.table_style h3{font-size:13px; color: blue; margin: 5px 0 10px 0;}
+.table_style p{font-size:14px; font-weight: 600; margin: 0 0 20px 0; font-size: 15px;}
+.table_style span{font-size:13px; margin: 10px 0 20px 0;}
+

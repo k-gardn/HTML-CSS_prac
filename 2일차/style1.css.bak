@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td{font-family:"돋움"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+
+/* 
+div 레이어(레이아웃=박스 생성) 
+div = h1~h6=ul=ol=dl 전부 레이아웃 = 박스 생성(table 박스/표)
+*/
+
+/* margin/padding: 0 0 0 0; 상 우 하 좌
+margin-left
+margin-bottom
+margin-right
+margin-top
+*/
+
+.boxA{ width: 300px; margin:50px; padding:50px; background:#ccffff; border:2px solid purple;
+box-sizing:border-box; -webkit-box-sizing:border-box;}
+
+/* padding:50px,  border 2px 등별도 추가되더라도
+width 300px 안에서 넓이를 더 늘리지않고 다 포함하는 기능
+box-sizing:border-box;
+
+-webkit-box-sizing:border-box; 태블릿pc 적용(공통스타일로 적용하면 디자인 다 틀어짐)
+-o--box-sizing:border-box; 오페라 적용(현재 불필요)
+-m-box-sizing:border-box; 모질라 적용(현재 불필요) */
+
+.box1{width:200px; height:150px; background:yellow; float:left}
+.box2{width:200px; height:150px; background:skyblue; float:left}
+
+/* 
+	정렬
+	margin:0 auto; 가운데
+	float: left; 왼쪽
+	float: right; 오른쪽
+*/
+
+
+/* table */
+
+.table_wrap{	
+margin:50px auto; width:750px;
+}
+.table_wrap td{vertical-align:top;} 
+
+/*  
+		수평정렬
+	    text-align:left;
+	    text-align:right;
+	    text-align:center;
+	     
+	    수직정렬
+	    vertical-align:top;
+	    vertical-align:middle;
+	    vertical-align:bottom; 
+*/
+
+.table_wrap td .movie{width:97%}
+.table_wrap td .movie a p {font-size:13px; line-height:145%; color:#333; margin:10px 0;}
+.table_wrap td .movie a p span{color:#cc3399; font-size:12px;}
+.table_wrap td .movie a p b{font-weight:normal; font-size:12px; color:#666; padding:10px 0 0 0;}
+.table_wrap td .movie a:hover p strong{text-decoration: underline; }
+
+.table_wrap td .list{width:97%;}
+.table_wrap td .list td{padding-bottom:20px; vertical-align:middle;}
+.table_wrap td .list td img{ width: 98px;}
+.table_wrap td .list td a .tit{font-size:12px; color:#ff3399;}
+.table_wrap td .list td a .txt{font-size:13px; color:#333; font-weight:bold; line-height:145%; padding:7px 0;}
+.table_wrap td .list td a .maker{font-size:12px; color:#666;}
+

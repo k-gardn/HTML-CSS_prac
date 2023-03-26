@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>외부 css</title>
+  <link rel="stylesheet" href="style1.css" type="text/css">
+ </head>
+
+ <body>
+  
+	<h1>제목글자태그 h1~h6</h1>
+	<h1>제목글자태그 h1~h6</h1>
+
+	<p class="abc">기아는 오는 15일 EV9 디자인을 공개하고, 이르면 내달 국내 판매를 시작한다.
+
+	EV9에 대한 관심은 출시 전부터 뜨겁다. <a href="http://www.daum.net">직영중고차 플랫폼 케이카 설문조사에 따르면 올해 상반기 출시 예정인 신차 중 가장 기대되는 전기차로 EV9이 꼽혔다.</a> EV9은 영국 자동차 전문매체 ‘왓 카’ 독자들이 뽑은 가장 기대되는 차에도 선정됐다.
+
+	최상위 모델인 만큼 EV9에는 다양한 첨단 기술이 적용될 예정이다. 현재까지 밝혀진 것은 무선 소프트웨어 업데이트(OTA)와 고객 필요에 따라 소프트웨어 기능을 선택적으로 구매할 있는 ‘FoD 서비스’, 레벨 3단계 수준의 자율주행기술 ‘HDP’가 탑재될 전망이다
+	</p>
+
+	<a href="http://now.naver.com/1/1743025"><img src="fantagy.JPG" alt="소년판타지"/></a>
+	
+	<table class="table_style">
+		<colgroup>
+			<col width="20%"></col>
+			<col width="50%"></col>
+			<col width="*"></col>
+			<!-- * : 나머지값 = 100% - 20% - 50% -->
+		</colgroup>
+		<thead>
+			<tr>	
+				<th>영어</th>
+				<th>수학</th>
+				<th>국어</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>	
+				<td>90</td>
+				<td>40</td>
+				<td>55</td>
+			</tr>
+	</tbody>
+	</table>
+
+ </body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+ 	<!-- html5 시멘틱태그 -->
+	<aside></aside>
+	<header>
+		사이트에 대한 상단의 로고, 탑섹션의 정보 포함
+		<nav>글로벌 네비게이션</nav>
+	</header>
+
+	<article>
+		사용자들한테 보여줄 실질적인 내용(문서)
+		<section>실제 문서</section>
+		<section>실제 문서</section>
+		<section>실제 문서</section>
+	</article>
+
+	<footer>
+		사이트에 대한 하단의 사업체 기본 정보 포함
+	</footer>
+	
+  
+ </body>
+</html>

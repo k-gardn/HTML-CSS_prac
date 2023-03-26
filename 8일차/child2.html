@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style type="text/css">
+	/* + 바로 아래 형제 선택자 */
+	.blue .green{color:#fff; background:green;}
+	.blue + .green{color:#fff; background:green;}
+	.blue + .green + .green{color:#fff; background:yellow;}
+	
+  </style>
+ </head>
+ <body>
+ 	
+	<div class="red">
+		<div class="blue">레드의 첫번째 자식 블루</div>
+		<div class="green">레드의 두번째 자식 그린</div>
+		<div class="green">레드의 세번째 자식 그린</div>
+	</div>
+  
+ </body>
+</html>

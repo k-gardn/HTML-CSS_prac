@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>p, br, span, strong 태그</title>
+ </head>
+ <body>
+	
+	<h2>p는 문단바꾸기 태그</h2>
+	<h3>br은 줄바꿈 태그(enter효과)</h3>
+
+	<p>이어 "가해자인 일본 정부는&nbsp;&nbsp;&nbsp; 외교적 이익과 자존심까지 챙겼고 피해자인 <b>대한민국은 국가적 손해와 굴욕감까지 떠안은 상황</b>"이라며<br> <span>"윤석열 정부의 굴욕 외교의 끝은 어디냐</span>"고 덧붙였습니다.</p>
+
+	<p>또한 박 원내대표는 <strong> "일본 정부는 35년 만에 자국 내 섬을 재집계했다며 독도를 포함해 발표했다"</strong>면서<br> "일본과 관계 개선을 위해서라면 이제 독도까지 내줄 작정이냐"고도 비판했습니다.</p>
+
+
+	<!-- h태그 > p태그 ? strong/br 태그 -->
+	<!-- p태그 : 문단(그룹)태그, 줄바꿈 기능 -->
+ </body>
+</html>

@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,ul,ol,li{font-family:"Noto Sans KR"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+
+/* 레이아웃 */
+.wrap {overflow:hidden; width:750px; margin:0 auto;}
+.wrap .left_box,
+.wrap .right_box{height:800px;float:left;}
+
+.wrap .left_box{width:60%;}
+.wrap .right_box{width:40%;padding-left:30px;box-sizing:border-box;-webkit-box-sizing:border-box; }
+
+/* left-box */
+
+.wrap h4 {margin-bottom:15px;}
+.wrap .left_box .first_article div{padding-left:5px;}
+.wrap .left_box .first_article p{font-size:13px; padding-top:10px;line-height:150%;}
+.wrap .left_box .maker{color:blue;padding-left:5px;}
+
+.sub_article{margin:5px 0;}
+.sub_article span:first-child{font-weight:500;}
+.sub_article span:last-child{font-weight:500;font-size:14px;}
+
+/* right_box */
+
+.wrap .right_box .cartoon{margin-bottom:20px;}
+.wrap .right_box .cartoon div{margin:0; line-height:130%;}
+.wrap .right_box .cartoon div a{font-size:14px;font-weight:500;color:#222;}
+.wrap .right_box .cartoon div a:hover{text-decoration:underline;}
+.wrap .right_box .cartoon div:last-child a{color:blue;}
+
+
+
+/* ex */
+
+ul.ex li:first-child{color:red;}
+ul.ex li:last-child{color:blue;}
+ul.ex li:nth-child(2){color:green;}
+ul.ex li:nth-child(3n){color:orange;}
+ul.ex li:nth-child(odd){color:brown;}
+ul.ex li:nth-child(even){color:purple;}
+
+/* 
+first-child 첫번째
+last-child 마지막
+nth-child(n) n번째
+nth-child(2n) 2의 배수
+nth-child(odd) 홀수
+nth-child(even) 짝수
+*/

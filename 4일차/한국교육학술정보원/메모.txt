@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+ </head>
+ <body>
+  
+  	<div class="content">
+		<h1>자주 찾는 질문</h1>
+		<div class="content_box">
+			<div class="left">
+				<div class="left_top">
+					<div>
+						<p><img src="image/faqList1.png"></p>
+						<span>회원정보/MyRISS</span>
+					</div>
+					<div>
+						<p><img src="image/faqList2.png"></p>
+						<span>회원정보/MyRISS</span>
+					</div>
+					<div>
+						<p><img src="image/faqList3.png"></p>
+						<span>회원정보/MyRISS</span>
+					</div>
+					<div>
+						<p><img src="image/faqList4.png"></p>
+						<span>회원정보/MyRISS</span>
+					</div>
+					<div>
+						<p><img src="image/faqList5.png"></p>
+						<span>회원정보/MyRISS</span>
+					</div>
+				</div>
+				<div class="left_bottom">
+					<div>
+						<p><img src="image/faqList6.png"></p>
+						<span>회원정보/MyRISS</span>
+					</div>
+					<div>
+						<p><img src="image/faqList7.png"></p>
+						<span>회원정보/MyRISS</span>
+					</div>
+					<div>
+						<p><img src="image/faqList8.png"></p>
+						<span>회원정보/MyRISS</span>
+					</div>
+					<div>
+						<p><img src="image/faqList9.png"></p>
+						<span>회원정보/MyRISS</span>
+					</div>
+					<div>
+						<p><img src="image/faqList10.png"></p>
+						<span>회원정보/MyRISS</span>
+					</div>
+				</div>
+			</div>
+			<div class="right">
+				<div>TOP FAQ<span>+</span></div>
+				<div>RISS 검색도움말</div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+
+	</div>
+
+ </body>
+</html>
+

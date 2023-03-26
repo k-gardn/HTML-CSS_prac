@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>daum</title>
+
+  <link rel="stylesheet" href="style2.css" type="text/css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+ </head>
+ <body>
+
+	<ul class="ex">
+		<li>list1</li>
+		<li>list2</li>
+		<li>list3</li>
+		<li>list4</li>
+		<li>list5</li>
+		<li>list6</li>
+	</ul>
+
+	<div class="wrap">
+		<div class="left_box">
+			<h4>칼럼으로 본 한국 ></h4>
+			
+
+			<div class="first_article">
+				<h2>2023년 한국은 1850년 영국보다 </h2>
+				<div class="maker">윤효원의 '노동과 세계'</div>
+				
+				<p>[윤효원 아시아노사관계 컨설턴트] 노동운동가 출신 이정식 장관의 '공장법' 타령 공장법(factory act)이 처음 출현한 나라는 산업혁명의 고향인 영국이다. 아담 스미스의 <국 </p>			
+			</div>
+			
+			<br>
+			<div class="sub_article">
+				<span>'캘박'을 아시나요</span> 
+				<span class="maker">기자수첩</span>
+			</div>
+
+			<div class="sub_article">
+				<span>‘더 글로리’ 복수 그 다음을 묻다</span>
+				<span class="maker">정덕현의 끄덕끄덕</span>
+			</div>
+
+			<div class="sub_article">
+				<span>'졸전·혹사·조롱' 점철된 이강철號, 비판조차 수용 못하나</span>
+				<span class="maker">기자수첩</span>
+			</div>
+
+			<div class="sub_article">
+				<span>SVB라는 돌발 변수가 가져온 충격파</span>
+				<span class="maker">광화문</span>
+			</div>
+		
+		</div>
+		<div class="right_box">
+			<h4>오늘의 만평 ></h4>
+			<div class="cartoon">
+				<span><a href="#"><img src="23daum/cartoon1.JPG"></a></span>
+				<div><a href="#">2023년 3월 16일</a></div>
+				<div><a href="#">김용민의 그림마당</a></div>
+			</div>
+			<div class="cartoon">
+				<span><a href="#"><img src="23daum/cartoon2.JPG"></a></span>
+				<div><a href="#">3월 16일 한겨레 그림판</a></div>
+				<div><a href="#">한겨레 그림판</a></div>
+			</div>
+			<div class="cartoon">
+				<span><a href="#"><img src="23daum/cartoon3.JPG"></a></span>
+				<div><a href="#">3월 16일</a></div>
+				<div><a href="#">박용석 만평</a></div>
+			</div>
+			<div class="cartoon">
+				<span><a href="#"><img src="23daum/cartoon4.JPG"></a></span>
+				<div><a href="#">2023년 3월 16일</a></div>
+				<div><a href="#">국민만평</a></div>
+			</div>			
+		</div>		
+	</div>
+  
+ </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>child1</title>
+  <style type="text/css">
+	
+	.red .blue{color:blue;}
+	/* 안먹을때 자식을 해봐라! */
+	.red > .blue{color:#fff; background:blue;}
+  </style>
+ </head>
+ <body>
+  
+  	<div class="red"> 
+		<div class="blue">레드 속에 블루</div>
+	</div>
+
+	<div class="red"> 
+		<div class="green">레드 속에 그린</div>
+	</div>
+
+	<div class="red">
+		<div class="blue">
+			<div class="green">블루</div>
+		</div>
+	</div>
+ </body>
+</html>

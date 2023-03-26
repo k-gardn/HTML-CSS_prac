@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,ul,ol,li{font-family:"Noto Sans KR"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+
+/* content */
+.content{width:1200px; margin:70px auto;}
+.content h1{text-align:center;margin-bottom:50px;}
+.content .content_box{font-size:0;position:relative;}
+
+
+/* left */
+.content_box .left{width:68%;font-size:15px;display:inline-block;box-sizing:border-box;}
+.content_box .left .left_top,
+.content_box .left .left_bottom
+{font-size:0;text-align:center;}
+.content_box .left .left_top{margin-bottom:95px;}
+
+.content_box .left .left_top > div,
+.content_box .left .left_bottom > div
+{width: 20%;font-size:15px;display:inline-block;}
+
+.content_box .left .left_top > div > p,
+.content_box .left .left_bottom > div> p{ padding-bottom: 20px;}
+
+
+/* right */
+.content_box .right{position:absolute;font-size:15px;display:inline-block;}
+.content_box .right > div{padding:15px 0;border-bottom:1px solid #ddd; }
+.content_box .right > div:first-child{position:relative;border-bottom:2px solid #000;}
+.content_box .right > div:first-child > span{position:absolute;right:0;top:20px;font-size:20px;}
+
+/* bottom */
+ 
+.bottom{width:500px;margin:0 auto;text-align:center;margin-top:100px;}
+.bottom > span{position:relative;background:blue;color:white; padding:15px 60px;margin:50px 5px;}
+
+/* .bottom > span:first-child{left:0;}
+.bottom > span:nth-child(2){right:10px;} */

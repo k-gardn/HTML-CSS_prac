@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>부모자식, 형제 관계</title>
+
+  <style type='text/css'>
+	.dog > p{background:red;} /* > 바로 밑에 있는 자식, 직계비속 */
+	ul li + li {color:red;} /* + 형제관계, 혈족 */
+	ul li + li + li {color:blue;} /* + 형제관계, 혈족 */
+  </style>
+ </head>
+ <body>
+  
+  	<div class='dog'>
+			<div>개1자식
+				<p>똥강아지=손자</p>
+			</div>
+			<p>개2자식=div형제</p>
+	</div>
+
+	<ul>
+		<li>list1</li>
+		<li>list2</li>
+		<li>list3</li>
+	</ul>
+
+ </body>
+</html>

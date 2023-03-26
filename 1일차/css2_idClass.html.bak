@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>id/class css</title>
+
+  <style type='text/css'>
+  	/*사용자 정의 스타일  :  id, class*/
+
+	#abc{
+		color:red;
+	}  /*class는  css 앞에 .을 붙임*/
+	.abc{ color:blue} /*class는  css 앞에 .을 붙임*/
+  </style>
+ </head>
+ <body>
+  
+  	<p id='abc'>하나의 웹페이지에 한번만 사용가능</p>  	
+	<p class='abc'>하나의 웹페이지에 여러번 사용가능</p>
+	<p class='abc'>하나의 웹페이지에 여러번 사용가능</p>
+	<p class='abc'>하나의 웹페이지에 여러번 사용가능</p>
+	<p class='abc'>하나의 웹페이지에 여러번 사용가능</p>
+	<p class='abc'>하나의 웹페이지에 여러번 사용가능</p>
+	<p class='abc'>하나의 웹페이지에 여러번 사용가능</p>
+ </body>
+</html>

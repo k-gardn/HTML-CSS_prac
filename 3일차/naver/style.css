@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,ul,ol,li{font-family:"Noto Sans KR"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+/* 레이아웃 */
+
+#wrap{width:100%; margin:0 auto;}
+#header{width:100%; height:130px; background:tomato;}
+#content{width:1080px;margin:50px auto;border-top:1px solid #888;overflow:hidden;}
+#content .left,
+#content .center{float:left;height:1000px;border-right:1px solid #ddd;box-sizing:border-box;-webkit-box-sizing:border-box;}
+#content .right{float:right;}
+
+#content .left{width:106px;}
+#content .center{width:648px;}
+#content .right{width:326px;}
+#footer{width:100%; height:130px; background:teal;}
+
+/* left */
+
+.left{height:500px;background:#eee;}
+
+/* center */
+.headline{width:90%; margin:30px auto;box-sizing:border-box;-webkit-box-sizing:border-box;}
+.headline h4{margin-bottom:10px; }
+.headline .news_box{padding-top:20px;border-top:1px solid #888;}
+
+.news_box .title{color: #396dbb; margin-bottom:10px;font-size:14px;font-weight:500;overflow:hidden;}
+.news_box .title span:nth-child(2){margin-left:10px;}
+.news_box .title span:last-child {float:right;font-size:20px;font-weight:500;}
+
+.img_news{overflow:hidden;padding-bottom:18px;}
+.img_news > span{float:left;}
+.img_news div{width:75%;float:left; }
+.img_news div p{font-size:13px; margin-top:5px; color:#555;letter-spacing:-0.5px;line-height:145%;}
+.img_news div span:last-child{font-size:13px;color:#555;}
+
+.news_box > ul{border-left:1px solid #ddd; }
+.news_box > ul li{font-size:15px;color:black;padding-bottom:8px;padding-left:10px;}
+.news_box > ul li a{font-size:14px; font-weight:600;}
+.news_box > ul li a span{font-weight:300;color:#555;}
+
+
+/* right */
+
+.right_news > div{margin-top:30px;}
+
+.right_news{margin:30px 0 0 20px;}
+
+.article{overflow:hidden;box-sizing:border-box;line-height:140%; }
+
+.article > div{width:65%;float:left;font-size:13px; border-bottom:1px solid #ddd;height:90%;margin-right:10px;letter-spacing:-0.5px; }
+.article > div > div{font-size:13px;color:#888;margin-bottom:8px;}
+.article span{width:30%;float:right;height:100%; }
+
+.test{width:500px;width:500px;background:red;}
+.test > span{width:200px;background:yellow;}
+

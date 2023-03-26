@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+	<style type="text/css">
+		.hor_box{
+			width:600px;
+			height:150px;
+			background:#ffff00;
+			border:3px solid #000;
+
+			display:box;/* block을 수직 or 수평 배치, float 대신 사용 */
+			box-orient:horizontal;/* 가로정렬, 수평방향 배치, 기본값 */
+			box-align:stretch;/* 안쪽 요소의 넓이가 hor_box의 넓이와 같게 확장된 뒤 연이어 배치 */
+
+			display:-webkit-box;/* 크롬, 사파리, 오페라 */
+			-webkit-box-orient:horizontal;
+			-webkit-box-align:stretch;
+
+			display:-moz-box;/* 모질라(파이어폭스) */
+			-moz-box-orient:horizontal;
+			-moz-box-align:stretch;
+
+
+		}
+		.ver_box{
+			width:500px;
+			height:200px;
+			background:#ffff00;
+			border:3px solid #000;
+
+			display:box;/* block을 수직 or 수평 배치, float 대신 사용 */
+			box-orient:vertical;/* 세로정렬, 수직방향 배치, horizontal 기본 적용 */
+			/* box-align:stretch;안쪽 요소의 넓이가 ver_box의 높이와 같게 확장된 뒤 연이어 배치 */
+		
+			display:-webkit-box;/* 크롬, 사파리, 오페라 */
+			-webkit-box-orient:vertical;
+			-webkit-box-align:stretch;
+
+			display:-moz-box;/* 모질라(파이어폭스) */
+			-moz-box-orient:vertical;
+			-moz-box-align:stretch;
+		}
+
+		.hor_box > div,
+		.ver_box > div{
+			border:1px solid red;
+			text-align:center;
+		}
+	 	.flex_a{
+			box-flex:1;
+			-webkit-box-flex:1;
+			-moz-box-flex:1;
+			box-flex는 0, 1값을 가지고 있다.
+			1은 오버되는 박스를 확장
+			0은 오버되는 박스를 확장X, default
+		}  
+
+	</style>
+ </head>
+ <body>
+
+<!--   인라인 CSS가 결국 최우선으로 적용됨 하지만 지양 -->
+ 	<div class="hor_box">
+ 		<div class="flex_a">1</div>
+ 		<div class="flex_a">2</div>
+ 		<div class="flex_a">3</div>
+ 		<div class="flex_a" style="width:100px;">4</div>
+ 		<div class="flex_a" style="width:100px;">5</div>
+ 		<div class="flex_a" style="width:100px;">6</div>
+ 	</div>
+
+	<div class="ver_box">
+ 		<div class="flex_a">1</div>
+ 		<div class="flex_a">2</div>
+ 		<div class="flex_a" style="height:40px;">3</div>
+ 		<div class="flex_a" style="height:40px;">4</div>
+ 	</div>
+  
+ </body>
+</html>

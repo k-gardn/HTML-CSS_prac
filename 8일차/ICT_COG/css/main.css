@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+#wrap,
+.content{width:100%;}
+.inner{width:1200px; margin:0 auto;}
+
+/* header */
+header{background:#000;opacity:0.7;position:fixed; top:0;z-index:1;width:100%;}
+header > .inner{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	height:85px; color:#fff;
+}
+
+header > .inner > div span{margin-left:30px;}
+
+/* visual */
+.visual{width: 100%;background:url("../image/visual_bg.jpg") no-repeat center center;}
+.visual > .inner{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	height:799px; color:#fff;
+}
+.visual > .inner > div{display:inline-block;height:40px;line-height:40px;font-size:0;}
+.visual > .inner > div > span:last-child{
+	/* display:inline-block; */
+	/* height:40px;line-height:40px; */
+	vertical-align:top;
+	padding-left:6px;
+	font-size:20px;
+}
+.visual > .inner h2{font-size:47px;}
+.visual > .inner p{font-size:20px;}
+
+/* content */
+
+/* introduce */
+.content > .inner > .introduce{height:895px;text-align:center; padding:115px 0 0 0; }
+.content > .inner > .introduce > div{margin-bottom:70px;}
+.content > .inner > .introduce > div h3{font-size:27px;font-weight:500; margin-bottom:15px;}
+.content > .inner > .introduce > div p{font-size:20px; color:#245b79;font-weight:400; }
+
+.content > .inner > .introduce > ul{display:flex;justify-content:space-between;}
+.content > .inner > .introduce > ul li{position:relative;height:498px;border:1px solid #d6d6d6;}
+
+.content > .inner > .introduce > ul li div:first-child{color:#fff;
+background:#3272ca;width:65px;height:65px;line-height:65px;position:absolute;top:0;box-sizing:border-box; -webkit-box-sizing:border-box; }
+
+.content > .inner > .introduce > ul li h4{font-size:23px;font-weight:500;}
+.content > .inner > .introduce > ul li p{font-size:17px;font-weight:500;color:#656565;}
+
+.content > .inner > .introduce > ul li span:last-child{
+display:inline-block;
+background:#000;color:#fff;
+width:170px;
+height:36px;line-height:36px;
+border-radius:30px;
+margin-top:100px;}
+
+/* notice */
+.content > .notice{height:490px; background:#f1f5f8; padding:65px 0; }
+.content > .notice > .inner ul{position:relative;width:590px;}
+.content > .notice > .inner ul li{border-top:1px solid #abacb0;}
+.content > .notice > .inner ul li:last-child{border-bottom:1px solid #abacb0;}
+.content > .notice > .inner ul h4{font-size:23px;}
+.content > .notice > .inner ul h4 span{position:absolute;right:0;}
+
+.content > .inner > .apply{height:410px;}
+

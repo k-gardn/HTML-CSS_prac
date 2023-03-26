@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,ul,ol,li{font-family:"Nanum Gothic"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+.content{overflow:hidden;width:550px; margin:50px auto;}
+
+.content .left_box{float:left; width: 190px;}
+.content .left_box span{color:black;font-size:13px; font-weight: 500 ;padding:3px 0;}
+.content .left_box{float:left}
+
+.content .right_box{ line-height:145%; font-size:14px;}
+.content .right_box .first_article{margin:0 0 5px 0;font-weight: bold; box-sizing:border-box;}
+.content .right_box p{margin:5px 0;box-sizing:border-box;}

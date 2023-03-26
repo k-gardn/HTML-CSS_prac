@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Naver enter</title>
+    <link rel='stylesheet' href='style1.css' type='text/css'>
+  
+ </head>
+ <body>
+
+	<table class='table_wrap'>
+		<colgroup>
+			<col width='50%'></col>
+			<col width='*'></col>
+		</colgroup>
+		<tr>
+			<!-- 좌측 시작 -->
+			<td>
+				<table class='movie'>
+					<tr>
+						<td><a href='#'><img src='img2.jpg' alt='영화 리바운드'></a></td>
+					</tr>
+					<tr>
+						<td>
+							<a href='#'>
+								<p><span>영화 리바운드</span></p>
+								<p><strong>장항준 감독! 기적 같은 감동 실화?🏀</strong></p>
+								<p><b>네이버 영화 예고편 저장소</b></p>
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<!-- 좌측 끝 -->
+
+			<!-- 우측 시작 -->
+			<td>
+				<table class='list'>
+						<colgroup>
+							<col width='30%'></col>
+							<col width='*'></col>
+						</colgroup>
+					<tr>
+						<td><a href='#'><img src='img3.jpg' alt='케이팝 제너레이션'></a></td>
+							<td>
+								<a href='#'>
+									<p class='tit'>케이팝 제너레이션</p>
+									<p class='txt'>한국에서 여성 아티스트로 무너지지 않을 수 있었던 비결</p>
+									<p class='maker'>티빙</p>
+								</a>
+							</td>
+					</tr>
+					<tr>
+						<td><a href='#'><img src='img4.jpg' alt='카지노 시즌2'></a></td>
+							<td>
+								<a href='#'>
+									<p class='tit'>[메이킹] 완벽해도 너무 완벽! 카지노 시즌2 </p>
+									<p class='txt'>[메이킹] 완벽해도 너무 완벽! 찰떡궁합 100%</p>
+									<p class='maker'>디즈니+</p>
+								</a>
+							</td>
+					</tr>
+						<tr>
+						<td><a href='#'><img src='img5.jpg' alt='판도라:조작된 낙원'></a></td>
+							<td>
+								<a href='#'>
+									<p class='tit'>[1-2화요약zip] 기억 잃은지 15년재생</p>
+									<p class='txt'>[1-2화요약zip] 기억 잃은지 15년 알고보니 내가 킬러였다?</p>
+									<p class='maker'>tvN</p>
+								</a>
+							</td>
+					</tr>				
+		
+				</table>
+			</td>
+			<!-- 우측 끝 -->
+		</tr>
+	</table>
+
+ </body>
+</html>
