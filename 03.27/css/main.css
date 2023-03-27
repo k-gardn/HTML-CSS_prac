@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/* 글자가 최소 16px 그 이하는 display:none */
+/* inner */
+.inner{width:85%;margin:0 auto;
+box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+
+
+/* header */
+
+body > header{position:relative;height:80px; background:#fff;}
+body > header h1{padding-left:2%;}
+body > header h1 img{width:130px;} /* 원래 260px인데 축소 */
+
+header .mu{position:absolute;right:2%; top:35%; z-index:9999999999;}
+header .mu a{display:block; width:30px; height:30px;}
+header .mu a span{display:block; background:#222; width:100%; height:2px; margin-bottom:7px;}
+
+/* visual */
+
+.visual{ 
+position:relative;
+width:100%;
+height:1045px;
+background:url(../image/vis_img1.jpg) no-repeat center center;background-size: cover;
+margin-top:15px; margin-bottom:50px;text-align:center;
+color:#fff;}
+
+.visual > .inner{position:absolute; padding-left:9%;bottom:10%;width:790px;text-align:left;}
+
+.visual > .inner > h2{font-size:45px;font-weight:500;margin-bottom:20px;line-height:130%;}
+.visual > .inner > p{font-size:20px;font-weight:300;line-height:145%;letter-spacing:-1px;}
+
+/* content */
+.content{
+display:flex;
+flex-direction: column;
+box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;
+}
+
+/* hash_tag */
+.content .hash_tag{
+display:flex;
+flex-wrap: wrap;
+/* width:680px; */
+margin-left:20px;
+/* height:165px; */
+}
+
+.content .hash_tag > div{
+text-align:center;
+height:70px; line-height:70px;
+margin:3.5px; padding:0 23px; 
+background:#f7f7f7; border-radius:5px;border:2px solid #d8d8d8;
+font-weight:400;font-size:24px;color:#616161;}
+
+
+/* nav */
+
+.nav{text-align:center; font-size:0; width:100%; height:168px;  background:#324baf; 
+margin:40px 0;padding-top:25px;
+box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+
+.nav ul li{display:inline-block;width:20%}
+.nav ul li a{display:block;font-size:20px;color:#fff; }
+
+
+/* hot_program */
+
+
+.hot_program{width:100%;}
+.hot_program .inner > div{overflow:hidden;height:30px;line-height:30px;padding-bottom:30px;}
+.hot_program .inner > div h3{float:left;font-size:30px;}
+.hot_program .inner > div span{float:right;font-size:20px;color:#b2bacd;}
+
+.hot_program .inner ul{display:flex;flex-wrap:wrap;justify-content: space-between}
+.hot_program .inner ul li{height:508px;}
+.hot_program .inner ul li span img{display:block; width:310px; margin-bottom:20px;
+border-radius:10px;
+-webkit-border-radius:10px;-moz-border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.3);}
+
+.hot_program .inner ul li div{font-size:25px;font-weight:400;margin-bottom:18px;}
+.hot_program .inner ul li p{font-size:18px;color:#9ca7bd;}
+
+/* hot_people */
+
+.hot_people{width:100%;background:#f5f6fa; padding-bottom:40px;}
+.hot_people .top.inner{overflow:hidden;height:147px;line-height:147px;padding-bottom:30px;}
+.hot_people .top.inner > h3{float:left;font-size:30px;}
+.hot_people .top.inner > span{float:right;font-size:20px;color:#b2bacd;}
+
+/* .people_visual */
+.hot_people > img{width:100%;}
+.hot_people .people_visual{position:relative;}
+.hot_people .people_visual img{width:100%;}
+.hot_people .people_visual div{position:absolute;top:8%;left:8%;
+background:#3d9fac; width:115px; height:115px;
+font-size:26px;color:#fff; text-align:center;padding-top:30px;
+box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;
+border-radius:115px;-webkit-border-radius:115px;-moz-border-radius:115px;
+}
+.hot_people .people_visual > div span{font-weight:500;}
+.hot_people .bottom{position:relative;width:100%;background:#3d9fac;}
+.hot_people .bottom .inner{display:flex;overflow:hidden;height:135px;align-items: center;
+color:#fff;font-size:25px;}
+.hot_people .bottom .inner div:first-child{float:left;}
+.hot_people .bottom .inner div:first-child h4{font-size:30px;margin-bottom:10px;}
+/* .hot_people .bottom .inner div:first-child p{font-size:20px;} */
+
+.hot_people .bottom .inner div:nth-child(2){position:relative;right:-5%;top:-18%;
+float:right;font-size:25px;
+border:2px solid #fff; padding:15px 20px;
+border-radius:30px;-webkit-border-radius:30px;-moz-border-radius:30px;
+}
+
+
+.hot_people ul li{overflow:hidden;width:100%;}
+.hot_people ul li{border-bottom:1px solid #ddd;padding:5% 0;}
+.hot_people ul li:last-child{border:0;}
+.hot_people ul li a > span{float:left;}
+.hot_people ul li a > div{float:right;}
+
+.hot_people ul li a > span{display:inline-block;width:30%;}
+.hot_people ul li a > span img{
+border-radius:10px;
+-webkit-border-radius:10px;-moz-border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.3);}
+.hot_people ul li a > div{width:65%;font-size:25px;font-weight:600;}
+
+.hot_people ul li a > div span{ font-size:22px;font-weight:400;
+display:inline-block;
+padding:8px 15px;  margin-bottom:20px;
+border:2px solid #b3bbce;color:#b3bbce;
+border-radius:60px;-webkit-border-radius:60px;-moz-border-radius:60px;}
+.hot_people ul li a > div div{color:#000;margin-bottom:20px;}
+.hot_people ul li a > div p{color:#50586b;font-weight:400;font-size:22px;line-height:135%;
+letter-spacing:-1px;}
+
+/* travel */
+
+.travel > .top.inner{padding:40px 0;}
+.travel > .top.inner h3{font-size:30px; font-weight:400; margin-bottom:20px;color:#000;}
+.travel > .top.inner div{font-size:20px;font-weight:500;color:#555;}
+.travel > ul li{position:relative;margin-bottom:20px;}
+.travel > ul li img{width:100%;}
+
+.travel > ul li a > .inner{position:absolute;left:5%;bottom:15%;color:#fff;}
+.travel > ul li a > .inner h4{font-size:24px;font-weight:400;margin-bottom:2%;letter-spacing:-1px;}
+.travel > ul li a > .inner div{font-size:23px;font-weight:300;line-height:135%;letter-spacing:-1px;}
+
+/* footer */
+footer{background:#f5f6fa;font-size:23px;}
+footer .inner{overflow:hidden;height:100px;line-height:100px;}
+footer .inner > span{float:left;width:60%;color:#616161;font-weight:400; }
+footer .inner > div{float:right;width:10%;}
+footer .inner > div span:first-child{margin-right:15px;}
+
+footer > div:nth-child(2){text-align:center;
+padding:40px 0;font-weight:500;
+border-top:1px solid #ddd;}
+
+footer  ul{font-size:0;margin-top:40px; text-align:center;}
+footer  ul li{display:inline-block;margin:0 10px;}
