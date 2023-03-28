@@ -25,7 +25,6 @@
     height: 620px;
     margin-bottom: 30px;
   }
-  /* .visual > .inner{bottom:110px;} */
   .visual > .inner > h2 {
     font-size: 35px;
   }
@@ -52,7 +51,6 @@
 }
 
 /* content */
-/* hash_tag */
 
 /* hash_tag */
 @media screen and (max-width: 768px) {
@@ -67,7 +65,6 @@
     line-height: 50px;
   }
 }
-
 @media screen and (max-width: 480px) {
   .content .hash_tag > div {
     padding: 0 10px;
@@ -234,9 +231,6 @@
 
 /* hot_people */
 @media screen and (max-width: 768px) {
-  .visual {
-    height: 800px;
-  }
   .hot_people .bottom .inner div:nth-child(2) {
     right: -2%;
     font-size: 23px;

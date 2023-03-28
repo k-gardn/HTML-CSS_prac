@@ -1,0 +1,417 @@
+@charset "utf-8";
+
+#wrap {
+  width: 100%;
+}
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* inner */
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  width: 100%;
+}
+header {
+  border-bottom: 1px solid #ddd;
+}
+
+header .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .inner > div > span {
+  color: #777;
+  border-right: 2px solid #ddd;
+  font-weight: 400;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+/* nav */
+nav.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav.inner > span {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  border-right: 1px solid #ddd;
+  -webkit-border-right: 1px solid #ddd;
+  -moz-border-right: 1px solid #ddd;
+  width: calc(100% / 4);
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+}
+
+nav.inner > span:hover {
+  background: #008efe;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav.inner > span:first-child {
+  border-left: 1px solid #ddd;
+}
+
+/* visual */
+.visual {
+  position: relative;
+  color: #fff;
+  height: 755px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.visual > span img {
+  width: 100%;
+  height: 100%;
+}
+.visual > div {
+  position: absolute;
+  top: 44%;
+  left: 41%;
+  text-align: center;
+}
+.visual > div div {
+  font-size: 15px;
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+.visual > div p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.visual > div h1 {
+  font-size: 70px;
+  margin-bottom: 35px;
+}
+
+/* biz */
+/* .biz .selected{background:#008efe;color:#fff;border:0;}
+.biz span:first-child.selected {border-left:0;} */
+.biz div span:hover {
+  border-left: 0;
+  background: #008efe;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+.biz {
+  position: relative;
+}
+.biz div {
+  position: absolute;
+  bottom: -50px;
+  left: 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1400px;
+  margin: 0 auto;
+  background: #008efe;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.biz span {
+  display: inline-block;
+  width: calc(100% / 3);
+  height: 100px;
+  line-height: 100px;
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.biz span:first-child {
+  border-left: 1px solid #ddd;
+}
+
+/* notice */
+/* .notice > .inner > ul li.selected{border:1px solid red;box-shadow:5 5px 5px rgba(0,0,0,.1) ;}
+.notice ul li.selected p{color:red;} */
+
+.notice {
+  display: flex;
+  align-items: center;
+  height: 490px;
+  background: #f6f7f9;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.notice > .inner {
+  overflow: hidden;
+  height: 260px;
+}
+.notice > .inner > div {
+  float: left;
+  width: 18%;
+}
+.notice > .inner > div h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 115px;
+}
+.notice > .inner > div h2 span {
+  color: #cdcdcd;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.notice > .inner > ul {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  overflow: hidden;
+  width: 82%;
+}
+.notice > .inner > ul li {
+  position: relative;
+  float: left;
+  width: 316px;
+  height: 252px;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 27px 23px;
+  margin-left: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.notice > .inner > ul li:hover > p {
+  color: red;
+  cursor: pointer;
+}
+.notice > .inner > ul li:hover {
+  border: 1px solid red;
+  box-shadow: 5 5px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.notice > .inner > ul li > div {
+  width: 35px;
+  height: 2px;
+  background: #888;
+  margin-bottom: 15px;
+}
+.notice > .inner > ul li > p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 145%;
+}
+.notice > .inner > ul li > span {
+  position: absolute;
+  bottom: 25px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #777;
+}
+.notice > .inner > ul li > button {
+  position: absolute;
+  bottom: 22px;
+  right: 20px;
+  width: 75px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 1px solid #898989;
+  background: #fff;
+}
+.notice > .inner > ul li > button p {
+  display: inline;
+  color: #898989;
+  font-size: 18px;
+}
+
+/* social */
+
+.social {
+  height: 747px;
+  text-align: center;
+  padding-top: 93px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.social h2 {
+  font-size: 35px;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+.social h2 span {
+  color: #008eff;
+}
+.social > p {
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+  color: #555;
+}
+.social ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+  margin: 0 auto;
+}
+.social ul li {
+  /* width:calc(100% / 3 - 42px); */
+  margin-top: 50px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.social ul li > div {
+  padding: 30px 0;
+}
+.social ul li > div > p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 15px;
+}
+.social ul li > div > div {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* introduce */
+.introduce {
+  background: #f6f7f9;
+  padding: 122px 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.introduce .inner {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.introduce .inner {
+  overflow: hidden;
+}
+.introduce .inner > div {
+  float: left;
+  width: 55%;
+}
+.introduce .inner > ul {
+  float: right;
+  width: 40%;
+}
+.introduce .inner > ul li {
+  position: relative;
+  height: 220px;
+  border-top: 1px solid #d8e6f1;
+  padding: 30px 0 20px 30px;
+}
+.introduce .inner > ul li:last-child {
+  border-bottom: 1px solid #d8e6f1;
+}
+
+.introduce .inner > ul li span:first-child {
+  display: block;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* :nth-child()를 잘 못 알고 있었네...!! */
+/* span:nth-of-type(2) 이게 내가 원하는 것...!*/
+.introduce .inner > ul li > span:nth-of-type(2) {
+  position: absolute;
+  right: 20px;
+}
+
+/* 
+.introduce .inner > ul li .img {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+} */
+
+.introduce .inner > ul li > p {
+  line-height: 135%;
+  color: #777;
+}
+.introduce .inner > ul li > div {
+  width: 107px;
+  height: 33px;
+  line-height: 33px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 400;
+  border: 1px solid #000;
+  background: #fff;
+}
+
+/* footer */
+.connect {
+  background: #008efe;
+}
+.connect .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.connect .inner > span {
+  color: #fff;
+  font-size: 34px;
+  font-weight: 500;
+}
+.connect .inner > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+.connect .inner > div ul li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+/* info*/
+.info {
+  border-bottom: 1px solid #ddd;
+  padding: 40px 0;
+  font-size: 20px;
+}
+.info .inner ul li {
+  margin: 15px 0;
+}
+
+/* copyright */
+.copyright {
+  font-size: 20px;
+  padding: 30px 0 60px 0;
+  color: #777;
+}
+.copyright span {
+  font-size: 18px;
+}
