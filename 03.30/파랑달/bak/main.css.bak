@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+#wrap{width:100%;}
+.inner{width:1179px; margin:0 auto;}
+
+/* header */
+header{height:166px;}
+header .head{overflow:hidden; height:110px;border-bottom:1px solid #e6e6e6; padding-top:25px; 
+box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+
+.head .inner > span,
+.head .inner .logo{float:left;}
+.head .inner .memberBox{float:right;width:16%;font-size:0;text-align:center;}
+
+.head .inner > span{width:22%;}
+.head .inner .logo{width:62%;font-size:0;}
+
+.logo h1,
+.logo .search{display:inline-block;}
+
+.logo .search{position:relative;width:380px;}
+.logo .search input{width:100%; height:50px; border:2px solid #640faf; 
+border-radius:50px;  margin-bottom:53px;}
+.logo .search span{position:absolute; right:20px; top:13px;}
+.logo .search span button{background:#fff url(../image/search.jpg) no-repeat; width:30px; height:23px; border:0;
+cursor:pointer;}
+
+/* 검색어가 돋보기까지 침범(이미지 파일이 png일 경우)하지 않게 하려면 input에 padding 값 주거나 배경에 흰색 주기 */
+
+.memberBox li{display:inline-block; padding:5px 0 25px 0;font-size:12px;}
+.memberBox li a{display:block; color:#777;}
+.memberBox li:nth-child(2){margin:0 15px;}
+
+
+/* article */
+article{width:100%;}
+section{width:500px; margin:60px auto 250px;}
+
+.tit p{font-size:25px; color:#111; line-height:105%;}
+.tit p + p{position:relative; padding:5px 0 0 145px; margin-bottom:30px;}
+.tit p + p span:after{position:absolute; content:""; 
+background:url(../image/tit_logo.jpg) no-repeat; width:141px; height:24px; left:0; top:35%;}
+
+.login{margin-bottom:15px;}
+.login p{width:100%; height:40px; border-bottom:1px solid #666; padding:2px 0; margin-bottom:5px;}
+.login p label{width:100px;}
+.login p input{width:400px; height:100%; border:0; font-size:14px;}
+.login p:last-child input{padding-left:4px;}
+
+.find{margin:25px 0 60px 0;}
+.find button{width:500px; border-radius:5px; border:0;}

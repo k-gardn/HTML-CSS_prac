@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/reset.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+ </head>
+ <body>
+
+ 	<div class="wrap">
+		<div class="header">
+			<div class="logo"><img src="../image/logo.jpg" alt="logo"></div>
+			<div class="nav">
+				<ul>
+					<li>
+						<a href="#">
+							<h3>HISTORY</h3>
+							<p>히스토리</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h3>WEBZIN</h3>
+							<p>웹진</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h3>CHILLING HEASING</h3></h3>
+							<p>칠링힐링</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h3>DAL'그락</h3>
+							<p>달그락</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h3>STORY파랑달</h3>
+							<p>파랑달이야기</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h3>COMMUNITY</h3>
+							<p>커뮤니티</p>
+						</a>
+					</li>
+					
+					
+				</ul>
+			</div>
+		</div>
+		<!-- //header -->
+		
+		<!-- visual_sb1 -->
+		<div class="visual_sb1">
+				<p>우리 역사와 문화를 뿌리로 하여 자연과<br>
+				사람이 어우러지는 저 너머의 새로운<br>
+				세상으로 안내합니다.</p>
+		</div>
+		<!-- //visual_sb1 -->
+		<!-- content -->
+ 		<div class="content">
+			<div class="left_menu">
+				<b>HISTORY</b>
+				<ul>
+					<li><a href="#">파랑달 소개<span></span></a></li>
+					<li><a href="#">조직 및 사업영역<span>></span></a></li>
+					<li><a href="#">파랑달 포트폴리오<span>></span></a></li>
+
+				</ul>
+			
+			</div>
+			<div class="right_info">
+				<h2>파랑달소개 <span> HOME > HISTORY > <b>파랑달 소개</b></span></h2>
+				<div>
+					<h3>파랑달은...</h3>
+					<p><b>대관령 너머 동쪽 바다를 마주하는 우리 지역의 이야기를 내놓습니다.</b></p>
+					<p>지역민의 살아있는 삶과 역사, 문화를 담아 더 넓은 세상과 소통하며, 지역에 생기를 불어넣는 새로운 문화와 사람들 새로운 문화를 디자인합니다.</p>
+					<span><p><b>…</b><br>할 말 많고, 일벌이기 좋아하는 사람 다섯이 모였습니다.<br>
+					대관령 너머 동쪽 바다를 마주하는 우리 지역의 이야기를 내놓습니다.<br>
+					지역민의 살아있는 삶과 역사, 문화를 담아 더 넓은 세상과 소통하며,<br>
+					지역에 생기를 불어넣는 새로운 문화와 사람들을 모시려 합니다.<br><b>…</b></p></span>
+				</div>
+
+				
+			</div>
+			<div class="s1_hotissue">
+				<div class="con_text">
+					<p><b>HOT ISSUE</b>
+					<span>2016 강릉단오제 “신주빚기 무료체험” 5월11일 2016.04.19. 15:13<span></p>
+				</div>
+				<div class="con_icon">
+					<ul>
+						<li><a href="#"><img src="../image/facebook.jpg" alt="facebook"></a></li>
+						<li><a href="#"><img src="../image/twitter.jpg" alt="twitter"></a></li>
+						<li><a href="#"><img src="../image/blog.jpg" alt="blog"></a></li>
+						<li><a href="#"><img src="../image/youtube.jpg" alt="youtube"></a></li>
+						<li><a href="#"><img src="../image/search.png" alt="search"></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<!-- //content -->
+
+
+		<!-- footer -->
+		<div class="footer">
+			<div>
+				<p>주소 : 강원도 강릉시 가작로 182, 2층 (교동)ㅣ전화 : 033)646-2275 ㅣ이메일 : parangdal5@naver.com</p>
+				<p>Copyright @ 컬쳐팩토리 파랑달 All Rights Reserved.</p>
+			</div>
+			<ul>
+				<li><img src="../image/youtube_footer.jpg" alt="youtube_footer"></li>
+				<li><img src="../image/blog_footer.jpg" alt="blog_footer"></li>
+				<li><img src="../image/twitter_footer.jpg" alt="twitter_footer"></li>
+				<li><img src="../image/facebook_footer.jpg" alt="facebook_footer"></li>
+			</ul>
+		</div>	
+	</div>
+  
+ </body>
+</html>

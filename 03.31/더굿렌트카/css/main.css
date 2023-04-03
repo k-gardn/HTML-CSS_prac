@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+#wrap{width:100%;}
+.inner{width:1200px; margin:0 auto;}
+
+/* header */
+.header{display:flex;}
+.header > span{display:inline-block; width:263px; height:87px;}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+	
+	
+ </head>
+ <body>
+	<div id="wrap">
+	    <!-- header -->
+		<div class="header">
+			<span><a href="index.html"><img src="image/logo.png" alt="더굿렌트카"></a></span>
+			<ul>
+				<li>
+					<a href="#"><b>특별 프로모션</b></a>
+				</li>
+				<li>
+					<a href="#"><b>중고차 장기렌트</b></a>
+				</li>
+				<li>
+					<a href="#"><b>신차 장기렌트</b></a>
+				</li>
+				<li>
+					<a href="#"><b>중고차판매</b></a>
+				</li>
+				<li>
+					<a href="#"><b>회사소개</b></a>
+				</li>
+				
+			</ul>
+		
+		</div>
+		 <!-- header -->
+		<!-- search -->
+			<!-- <div class="search">
+				
+			</div> -->
+			<!-- search -->
+		<!-- visual -->
+				<!-- <div class="visual">
+				
+				</div> -->
+				<!-- visual -->
+		<!-- content -->
+		<!-- <div class="content">
+		 	<div class="top_content">
+				
+			</div>
+		
+		
+			middle_content
+			<div class="middle_content">
+			
+			</div>
+			middle_content
+		
+			bottom_content
+			<div class="bottom_content">
+				
+			</div>
+			bottom_content				
+		</div> -->
+		 <!-- content -->
+
+
+		 <!-- <footer>
+		 			
+		 </footer> -->
+	</div>
+
+ </body>
+</html>

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*visual_sb1*/
+.visual_sb1{background:url(../image/history/visual_bg.jpg) no-repeat center center; height:217px; position:relative; margin-bottom:20px;}
+.visual_sb1 p{position:absolute; right:50px; bottom:25px; color:#fff; line-height:120%; text-align:right; opacity:0.8; font-size:18px;}
+
+
+/*content*/
+
+.content{width:1200px; height:926px; position:relative;}
+.content .left_menu{float:left; width:204px;}
+.content .right_info{float:right; width:965px;}
+
+.content .left_menu b{display:block; height:60px;line-height:60px; border-bottom:1px solid#000; font-size:17px; font-weight:500; margin-bottom:20px;}
+.content .left_menu ul li a{display:block; padding:13px 13px 13px 15px; font-size:18px; border-bottom:1px solid #a1a1a1;}
+.content .left_menu > ul li span{float:right; color:#969696;}
+.content .left_menu > ul li:hover a{background:#3f68c4; color:#fff;}
+
+.content .right_info h2{height:60px; line-height:60px;border-bottom:1px solid#969696; font-size:25px; font-weight:400; color:#10327a;position:relative;}
+.content .right_info h2 span{position:absolute; right:0; font-size:15px; color:#a0a0a0;font-weight:100;}
+.content .right_info h2 span > b{color:#000; font-weight:400;}
+.content .right_info > div{padding:40px 10px;}
+.content .right_info > div h3{font-size:50px; color:#2d82a9; padding-bottom:10px; font-weight:400;}
+.content .right_info > div p{color:#666; font-size:18px;} 
+.content .right_info > div p b{font-size:23px; font-weight:400; color:#2c2c2c;}
+.content .right_info > div span{display:block; background:url(../image/history/greeting_img.jpg) no-repeat center center; width:928px; height:364px; margin-top:30px;  position:relative;  }
+.content .right_info > div span > p{position:absolute; text-align:center; right:20px;bottom:100px;color:#939196;}
+.content .right_info > div span > p b{font-weight:700;font-size:25px;color:#939196;}
+
+.s1_hotissue{overflow:hidden; border:1px solid #ddd;width:1200px;height:36px;line-height:36px; position:absolute; left:0; bottom:0}
+
+.s1_hotissue .con_text{float:left}
+.s1_hotissue .con_icon{float:right}
+
+.s1_hotissue .con_text > p{padding-left:20px;}
+.s1_hotissue .con_text > p b{display:inline-block;color:red; font-size:16px; padding-right:50px;}
+.s1_hotissue .con_text > p span{color:#666; font-size:14px;}
+
+.s1_hotissue .con_icon > ul{font-size:0;}
+.s1_hotissue .con_icon > ul li{display:inline-block;border-right:1px solid #ddd;}
+
+.footer{border:0;}

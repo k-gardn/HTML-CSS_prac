@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.back{width:500px; height:500px; margin:0 auto;background:blue;
+position:relative;
+}
+
+.none_relative{
+position:absolute;
+top:50px;
+right:50px;
+width:200px;height:200px;background:green;}
+.none_relative:after{position:absolute;
+bottom:0;
+left:0;
+content:""; width:5px; height:5px; background:purple;}
+
+
+.relative{position:relative; width:200px;height:200px;background:yellow;}
+.relative:after{position:absolute;
+top:0; 
+right:0;
+content:""; width:5px; height:5px; background:red;}

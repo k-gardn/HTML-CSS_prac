@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+nav{height:55px; border-bottom:1px solid #c4c4c4;}
+nav .inner ul{overflow:hidden;position:relative;}
+nav .inner ul li{float:left; padding-left:40px;}
+nav .inner ul li:first-child{border-left:1px solid #e6e6e6; border-right:1px solid #e6e6e6;padding-left:0;}
+nav .inner ul li:last-child{position:absolute; right:0; width:54px;}
+
+nav .inner ul li a{position:relative;display:block; height:55px; line-height:55px; font-size:15px; color:#111;
+padding:0 10px;}
+nav .inner ul li:first-child a{padding:0 45px 0 80px;}
+nav .inner ul li:first-child a:after{position:absolute; content:""; background:url(../image/gnb_off.jpg) no-repeat;
+width:26px; height:185px; left:45px; top:35%;}
+
+nav .inner ul li:last-child a{padding:0 15px; border-left:1px solid #e6e6e6;
+border-right:1px solid #e6e6e6; }
+nav .inner ul li:last-child a:after{position:absolute; content:""; 
+background:url(../image/plus.jpg) no-repeat; width:20px; height:20px; left:16px; top:35%;}
+
+nav .inner ul li:first-child a:hover{color:#fff; border-bottom:0; background:#640faf;}
+nav .inner ul li:first-child a:hover:after{position:absolute; content:""; 
+background:url(../image/gnb_on.jpg) no-repeat; width:26px; height:185px; left:45px; top:35%;}
+
+nav .inner ul li a:hover,
+nav .inner ul li a.on{font-weight:700; border-bottom:2px solid #111;}
+
+nav .inner ul li:last-child a:hover{border-bottom:0; }
+nav .inner ul li:last-child a:hover:after{position:absolute; content:""; 
+background:url(../image/minus.jpg) no-repeat; width:20px; height:20px; left:16px; top:35%;}
