@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/* *반응형 퍼블리싱 width단위
+1580/1350/1300/1200/1024/
+975/828/768/667/560/540/480/420/375/320 */
+
+
+@media screen and (max-width:1300px){
+    .inner{width:95%;}
+}
+
+/* visual */
+@media screen and (max-width:1024px){
+    .visual{height:800px;}
+		.visual .left > div h2 {font-size: 50px;}
+		.visual .left > div h2 span{font-size: 50px;}
+		.visual .left > div {top: 20%;}
+    
+}
+
+@media screen and (max-width:975px){
+    .visual{height:740px;}
+		.visual .left > div {top: 15%;}
+		.visual .left > div h2 {margin-bottom: 17px;}
+    
+}
+
+@media screen and (max-width:828px){
+		.visual .left,
+		.visual .right{float:none; width:100%;}
+
+    
+}
+
