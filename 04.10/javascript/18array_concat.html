@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+ 		<script language="JavaScript">
+			// Array() 배열
+			// a[] 출력
+			aanimal = new Array(5);
+			aanimal[0] = "용0"
+			aanimal[1] = "용1"
+			aanimal[2] = "용2"
+			aanimal[3] = "용3"
+			aanimal[4] = "용4"
+
+			document.write("첫번째 요소는", aanimal[0], "이다.");
+
+			for(i=0; i < 5; i++){
+				document.write("<br>");
+				document.write("첫번째 요소는", aanimal[i], "이다.");
+			}
+
+			////////////////////////////////////////////////////
+
+			banimal = new Array("닭", "개", "소", "고양이", "말", "오리", "돼지");
+			document.write("<br><br>");
+			document.write("첫번째 요소는", banimal[2], "이다.");
+
+			for(i=0; i < banimal.length; i++){
+				document.write("<br>");
+				document.write("첫번째 요소는", banimal[i], "이다.");
+			}
+			////////////////////////////////////////////////////
+
+			tools = new Array("민규", "가영", "정한", "유리");
+			// concat() 새로운 배열을 만들어서 합친다.
+			c = banimal.concat(tools);
+			for(i=0; i < c.length; i++){
+				document.write("<br>");
+				document.write(i, "요소는", c[i], "이다.");
+			}
+
+			document.write("<br><br>");
+			document.write(c);
+
+			document.write("<br><br>");
+			document.write(c.join("/"));
+
+		</script>
+  
+ </body>
+</html>

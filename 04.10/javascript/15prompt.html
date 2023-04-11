@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+ 	<script language="JavaScript">
+		// prompt 사용자에게 윈도우창을 띄워 데이터를 입력받을 수 있는 함수
+		hak = prompt("월을 입력하세요","3"); //3은 초기값
+		switch(hak){
+			case "1" : { //1이면
+				document.write("서울"); //서울 실행
+				break //서울만 출력되고 switch문을 탈출(종료), 없으면 다음 case를 실행
+			}
+			case "2" : { //1,2라면
+				document.write("인천");
+				break
+			}
+			case "3" : {
+				document.write("경기");
+				break
+			}
+			default:{
+				alert("잘못입력했습니다. \n 1,2,3중에 하나만 입력하세요.");
+			}
+		}
+	</script>
+  
+ </body>
+</html>

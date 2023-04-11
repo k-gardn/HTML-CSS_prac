@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title> new document </title>
+  <meta name="generator" content="editplus" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+ </head>
+
+ <body>
+ 	<script language="JavaScript">
+		//관계연산자 : true / false
+		a = 10
+		b = 15
+		document.write("a == b : ", a == b); //같다.
+		document.write("<br>");
+
+		document.write("a != b : ", a != b);	//같지 않다.
+		document.write("<br>");
+
+		document.write("a > b : ", a > b);	
+		document.write("<br>");
+
+		document.write("a >= b : ", a >= b);	
+		document.write("<br>");
+
+		document.write("a < b : ", a < b);	
+		document.write("<br>");
+		
+
+		//논리연산자 : 두가지 이상의 조건에서 A가 B보다...
+		x= true
+		y = false
+		document.write("<br>");
+		document.write("<br>");	
+		document.write("x && y : ", x && y); //논리곱 : 두개의 식이 모두 true인 경우에만 true = "and"
+		document.write("<br>");	
+		document.write("x || y : ", x || y); 
+		document.write("<br>");
+		document.write("<br>");	
+		</script>
+ </body>
+</html>

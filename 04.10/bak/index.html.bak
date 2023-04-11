@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+ </head>
+ <body>
+    <header>
+				<a href="#"><img src="image/logo.png" alt=""></a>
+				<div class="nav">
+					<ul>
+						<li><a href="#">브랜드소개</a></li>
+						<li><a href="#">매장찾기</a></li>
+						<li><a href="#">이벤트</a></li>
+						<li><a href="#">창업정보</a></li>
+					</ul>
+				</div>
+				<span><a href="#"><img src="image/icon_tel.png" alt="">온라인 주문하기</a></span>
+    </header>
+
+		<!-- visual -->
+		<div class="visual">
+			<div>
+				<h1>세상에서 가장 건강하고 맛있는<br>
+				<img src="image/main/vis_txt1.png" alt=""></h1>
+			</div>
+			
+		</div>
+		<!-- visual -->
+		<div class="content">
+				<div class="representative">
+					<div class="cnt_tit">
+						<h2><span>BBQ</span> 대표메뉴</h2>
+						<p>후라이드가 맛있어야 모든 치킨이 다 맛있는 BBQ메뉴 입니다.</p>
+					</div>
+					<div class="menu">
+						<!-- left -->
+						<div class="left">
+							<div class="box_common box_radius">
+								<img src="image/icon_best.png" alt="">
+								<h3>황금올리브치킨™속안심</h3>
+								<p>#신비의 속살&nbsp;&nbsp; #특제파우더&nbsp;&nbsp;  #바사삭</p>
+								<span>₩ 17,000</span>
+							</div>
+							<div class="box_common box_radius">
+								<h3>크림 치즈볼</h3>
+								<p>#겉바속촉&nbsp;&nbsp; #모짜렐라&nbsp;&nbsp;  #필수간식</p>
+								<span>₩ 17,000</span>
+							</div>
+							<div class="box_common box_radius">
+								<h3>BBQ 치즈스틱</h3>
+								<p>#짭짤고소&nbsp;&nbsp;  #허전함을달래줄&nbsp;&nbsp;  #작은친구</p>
+								<span>₩ 3,000</span>
+							</div>
+
+						</div>
+						<!-- left -->
+
+						<!-- right -->
+						<div class="right">
+							<div class="view_more">
+								VIEW MORE MENU
+								<img src="image/main/arrow1.png" alt="">
+							</div>
+							<div class="box_common box_radius">
+								<h3>자메이카 통다리구이</h3>
+								<p>#오븐에 구웠다&nbsp;&nbsp;  #저크소스&nbsp;&nbsp;  #매콤달콤</p>
+								<span>₩ 19,500</span>
+							</div>
+						</div>
+						<!-- right -->
+					</div>
+				</div>
+
+				<!-- order -->
+				<div class="order">
+					<div class="pick_up">
+						<img src="image/main/store_bg.png" alt="">
+						<div class="order_tit">
+								<p>STORE PICK-UP</p>
+								<h4>매장찾고<br><b>직접 주문할까?</b></h4>
+								<a href="#">가까운 매장 찾기</a>
+						</div>
+						
+					</div>
+					<div class="delivery">
+						<div class="order_tit">
+								<p>DELIVERY</p>
+								<h4>편하게<br><b>배달 시켜볼까?</b></h4>
+								<ul>
+									<li><a href="#"><img src="image/main/yogiyo.png" alt="yogiyo"></a></li>
+									<li><a href="#"><img src="image/main/baemin.png" alt="yogiyo"></a></li>
+									<li><a href="#"><img src="image/main/baedaltong.png" alt="yogiyo"></a></li>
+								</ul>
+								
+						</div>
+					</div>
+				</div>
+				<!-- //order -->	
+				<!-- event -->
+				<div class="event">
+					<div class="cnt_tit">
+						<h2>Event Magazine</h2>
+						<p>BBQ에서 진행중인 다양한 이벤트를 만나보세요.</p>
+					</div>
+					<div class="inner12">
+						<ul>
+							<li class="box_radius"><a href="#">
+								<img src="image/main/event_img1.jpg">
+								<p>기간 : 2023-04-10 ~ 2023-04-21</p>
+								<h4>BBQ 새봄맞이<br>
+								신메뉴 4종 출시 이벤트!</h4>
+							</a></li>
+							<li class="box_radius"><a href="#">
+								<img src="image/main/event_img2.jpg">
+								<p>기간 : 2023-04-10 ~ 2023-04-21</p>
+								<h4>요기요 첫 주문시<br>
+								전메뉴 1만원 할인!</h4>
+							</a></li>
+						</ul>
+					</div>
+				</div>
+				<!--// event -->
+
+				<!-- people -->
+				<div class="together">
+					<div class="cnt_tit">
+						<h2><span>BBQ</span>와 함께한 사람들</h2>
+						<p>BBQ를 만나 행복한 사람들의 이야기</p>
+					</div>
+					
+					<div class="poeple inner12">
+						<ul>
+							<li><a href="#">
+								<div>01</div>
+								<span>영종하늘도시점</span>
+								<p>젊은창업스타 권OO님</p>
+							</a></li>
+							<li><a href="#">
+								<div>02</div>
+								<span>강북스타점</span>
+								<p>장수창업스타 손OO님</p>
+							</a></li>
+							<li><a href="#">
+								<div>03</div>
+								<span>성북스타점</span>
+								<p>성공창업스타 박OO님</p>
+							</a></li>
+							<li><a href="#">
+								<div>04</div>
+								<span>효자점</span>
+								<p>다점포창업스타 우OO님</p>
+							</a></li>
+						</ul>
+
+						<div>
+							<a href="#"><img src="image/main/gallery1.jpg" alt="poeple1"></a>
+							<a href="#"><img src="image/main/gallery2.jpg" alt="poeple2"></a>
+							<a href="#"><img src="image/main/gallery3.jpg" alt="poeple3"></a>
+							<a href="#"><img src="image/main/gallery4.jpg" alt="poeple4"></a>
+						</div>
+					</div>
+
+					<div class="founded inner12">
+						<div class="process box_radius">
+							<h4>BBQ 가맹 절차</h4>
+							<p>BBQ는 예비창업자분들과 동행합니다.</p>
+							<a href="#">MORE <img src="image/main/arrow2.png"></a>
+						</div>
+						<div class="price price box_radius">
+							<h4>BBQ 창업 비용</h4>
+							<p>상담 전 예상 비용을<br>
+							미리 확인해보세요.</p>
+							<a href="#">MORE <img src="image/main/arrow2.png"></a>
+						</div>
+					</div>
+					
+				</div>
+				<!--// people -->
+				<div class="consult">
+					<div class="inner13">
+						창업상담문의
+						<form action="">
+							<span>
+								<span class="material-symbols-outlined">person</span>
+								<input type="text"  maxlength="20" value="" name="이름" id="" placeholder="이름" >
+							</span>
+							
+							<span>
+								<span class="material-symbols-outlined">call</span>
+								<input class="call" type="text" maxlength="4" value="" name="이름" id="" placeholder="연락처" >
+							</span>
+							
+							<span></span>
+							<input class="call" type="text" maxlength="4" value="" name="이름" id=""  >
+							<span></span>
+							<input class="call" type="text" maxlength="4" value="" name="이름" id="" >
+
+							<button>신청하기</button>
+						</form>
+						
+					</div>
+					
+				</div>
+
+		</div>
+
+		<footer>
+			<div class="info">
+				<div><img src="image/ft_logo.png" alt="ft_logo"></div>
+				<ul>
+					<li><span>ORDER</span> 1588-9282</li>
+					<li><span>CS CENTER</span> 080-3436-0507</li>
+					<li><span>창업문의</span> 080-383-9000</li>
+				</ul>
+				<ul>
+					<li><span>대표자</span>	윤경주</li>
+					<li><span>주소</span> 서울시 송파구 중대로 64(문정동)</li>
+				</ul>
+				<ul>
+					<li><span>통신판매업신고</span> 2010-서울송파-1181호</li>
+					<li><span>사업자등록번호</span> 207-81-43555</li>
+				</ul>
+			</div>
+
+			<div class="copyright">
+				&copy; 2019 GENESIS BBQ. ALL RIGHTS RESRVED.
+			</div>
+		
+		</footer>
+		<div class="top_btn"><img src="image/main/top.png" alt="top" ></div>
+ 
+ </body>
+</html>

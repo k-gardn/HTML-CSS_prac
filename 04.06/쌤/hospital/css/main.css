@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.inner{width:1200px; margin:0 auto;}
+
+
+/* header */
+
+header{width:100%; height:125px; line-height:125px; position:absolute; top:0; left:0;}
+
+.top{display:flex; align-items:center; justify-content: space-between;}
+.top > a{display:block; width:195px;}
+.top > a img{vertical-align:middle;}
+.nav ul{font-size:0; width:840px;} 
+.nav ul li{display:inline-block; width:calc(100% / 7); text-align:center; font-size:15px;}
+
+
+
+/* visual */
+
+.visual{width:100%; height:808px;background:url(../image/visual_bg.jpg) no-repeat center center;padding-top:223px;
+box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;
+}
+.visual .inner{position:relative; height:100%;}
+.visual .inner > div > span{font-size:37px; }
+.visual .inner > div > p{ line-height:125%; margin-bottom:30px;}
+.visual ul{font-size:0;  height:60px; margin-bottom:10px;} 
+.visual ul li{display:inline-block; margin-right:5px;  font-size:0;}
+.visual h1 {font-size:71px; line-height:116%; margin-bottom:50px;}
+.visual .inner > div > button{width:150px; height:35px; border:0; color:#fff; background:#0098b0; font-weight:500;}
+.visual .inner > div > button + button{background:#c7ada0; margin-left:0;}
+.visual .inner > span{position:absolute; right:0; bottom:0; font-size:0;}
+
+
+/* content */
+.content h2{font-size:43px;font-weight:300; letter-spacing:-0.5px;}
+.content h2 div{font-size:23px; font-weight:300; letter-spacing:-1px;}
+
+.introduce{width:100%; background:#ecf0f1; text-align:center; padding:78px 0 84px 0; }
+.introduce > p{font-size:15px; letter-spacing:-0.5px; color:rgba(0,0,0,.8); margin:5px 0 40px 0;}
+
+.introduce > ul{display:flex; width:1200px; margin:0 auto;}
+.introduce > ul li{width:calc(100% / 5);}

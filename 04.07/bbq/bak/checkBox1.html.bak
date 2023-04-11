@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+	<script src="https://kit.fontawesome.com/ce29b13473.js" crossorigin="anonymous"></script>
+	
+	<style type="text/css">
+		h2{margin:40px 0;}
+		.checkbox > div{display:inline-block; margin-right:15px;}
+		.check + label{position:relative;}
+
+		.checkbox input[type="checkbox"].check{display:none;}
+		.checkbox input[type="checkbox"] + label:before{
+			display:inline-block;
+			content:"";
+			width:20px;
+			height:20px;
+			border:2px solid #000;
+			background:#ffcc00;
+			border-radius:50%;
+			margin:0 5px -6px 0;
+		}
+
+		.checkbox input[type="checkbox"] + label:after{
+			position:absolute;
+			content:"✔";
+			font-size:15px;
+			color:#000;
+			left:6px;
+			line-height:135%;
+			transition:all 0.3s;
+		}
+		[type="checkbox"].check + label:after{
+			opacity:0;
+			transform:scale(0);
+		}
+		[type="checkbox"]:checked.check + label:after{
+			opacity:1;
+			transform:scale(1);
+		}
+	</style>
+ </head>
+	 <body>
+
+	 	<h2>체크박스</h2>
+		<div class="checkbox">
+			<div>
+				<input type="checkbox" name="check1" id="check1" value="1" class="check">
+				<label for="check1">체크박스1</label>
+			</div>
+			<div>
+				<input type="checkbox" name="check2" id="check2" value="2" class="check">
+				<label for="check2">체크박스2</label>
+			</div>
+		</div>
+	 </body>
+ </html>

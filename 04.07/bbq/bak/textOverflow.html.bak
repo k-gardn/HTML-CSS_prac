@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ 
+  <style type="text/css">
+		*{margin:0; padding:0;}
+		ul,li{list-style:none;}
+		.news{width:60%; margin:100px auto;}
+		.news ul li{display:flex; align-items:flex-start; justify-content:flex-start;
+		border-bottom:1px solid #ddd; margin-bottom:15px; padding-bottom:15px;
+		}
+		.news ul li p{width:100px;}
+		.news ul li a{width:calc(100% - 120px); margin-left:20px; color:#000; text-decoration:none;}
+
+		@media screen and (max-width:430px){
+			.news{width:90%;}
+			.news ul li a{
+				overflow:hidden;
+				text-overflow:ellipsis; /*글자가 넓이를 넘겼을 경우 생략부호(....)*/
+
+				white-space:nowrap; /*줄바꿈 하지말고 한줄로 출력*/
+
+			}
+		}
+			@media screen and (max-width:375px){
+			.news ul li{display:block;} display:flex; 해제
+			.news ul li p{width:100%;}
+			.news ul li a{
+				width:calc(100% - 0); width:95%; margin-left:0; display:block;
+			}
+		}
+
+	</style>
+</head>
+ <body>
+
+	<div class="news">
+		<ul>
+			<li>
+				<p>2023. 04. 07</p>
+				<a href="#">
+				한화그룹이 초기 투자자로 나섰던 미국 수소 트럭 기업 니콜라의 주가가 1달러 선까지 급락하며 ‘동전주’가 됐다. 이 회사가 최근 자금난을 완화하기 위해 대규모 유상증자를 추진한 데 따른 영향이다. 한화는 2018년 이 회사에 1억 달러를 투자해 2000만주 넘게 지분을 보유했었다.</a>
+			</li>
+			<li>
+				<p>2023. 04. 07</p>
+				<a href="#">
+				한화그룹이 초기 투자자로 나섰던 미국 수소 트럭 기업 니콜라의 주가가 1달러 선까지 급락하며 ‘동전주’가 됐다. 이 회사가 최근 자금난을 완화하기 위해 대규모 유상증자를 추진한 데 따른 영향이다. 한화는 2018년 이 회사에 1억 달러를 투자해 2000만주 넘게 지분을 보유했었다.</a>
+			</li>
+			<li>
+				<p>2023. 04. 07</p>
+				<a href="#">
+				한화그룹이 초기 투자자로 나섰던 미국 수소 트럭 기업 니콜라의 주가가 1달러 선까지 급락하며 ‘동전주’가 됐다. 이 회사가 최근 자금난을 완화하기 위해 대규모 유상증자를 추진한 데 따른 영향이다. 한화는 2018년 이 회사에 1억 달러를 투자해 2000만주 넘게 지분을 보유했었다.</a>
+			</li>
+		</ul>
+		
+	</div>
+  
+ </body>
+</html>

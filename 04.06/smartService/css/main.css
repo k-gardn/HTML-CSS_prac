@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* 라인 투명도 0.2 */
+.inner{width:887px; margin:0 auto;}
+
+.active{color:#a5abff !important; border-bottom:2px solid #a5abff !important;}
+
+/* header */
+
+header{width:100%;position:absolute; top:0; left:0;}
+
+header > div{display:flex; justify-content: space-between; /* width:100%; */ height:97px; 
+padding-top:45px; border-bottom:1px solid rgba(255,255,255,.2);
+/* background-color:transparent; */ 
+/* z-index:999999; static일때는 안먹음*/
+box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;
+}
+
+header  .info a,
+header  .nav a{ display:inline-block; font-size:13px; color:#fff;}
+/* header > .nav a span{color:#85a2fe;} */
+
+header  .info{height:23px; line-height:23px; width:auto; letter-spacing:1px;}
+header  .info a{ margin-left:5px; margin-right:30px;}
+header  .info a img{vertical-align:top; padding-right:10px;}
+header  .info a span{color:#a5abff; font-weight:500;}
+
+header  .nav{display:flex; width:386px; height:100%;}
+header  .nav ul{overflow:hidden; width:360px; height:100%;}
+header  .nav ul li{float:left;  height:100%;}
+header  .nav ul li a{display:block;  height:96%; text-shadow: #000 2px 2px 2px; }
+header  .nav ul li{width:calc(100% / 4); text-align:center;}
+header  .nav ul li:hover a{border-bottom:2px solid #a5abff !important; color:#a5abff;}
+header  .nav > span{ display:inline-block; width:26px; height:26px;}
+
+/* visual */
+.visual{position:absolute; top:0; z-index:-999;width:100%; height:689px; background:url(../image/visual_bg.jpg) no-repeat center center;text-align:center;}
+
+.visual > div{/* position:fixed; top:27%; left:33%; */ color:#fff;padding-top: 187px; }
+.visual > div > span{display:block; font-size:16px; letter-spacing:5px; color:#85a2fe;font-weight:500; margin-bottom:7px;}
+.visual > div > h1{font-size:72px; font-weight:400;letter-spacing:2.5px; }
+.visual > div > p{font-size:12px; opacity:0.5; line-height:130%;font-weight:200;margin-bottom:44px;}
+.visual > div > button, .watch .inner > div > button{font-size:15px; border:0;width:230px; height:45px; color:#fff; background:#486cde; margin-bottom:65px; cursor:pointer; letter-spacing:1px;
+border-radius:230px; -webkit-border-radius:230px; -moz-border-radius:230px;}
+
+
+
+
+/* content */
+.content{margin-top:592px;}
+.use{width:100%; height:173px; background:#486cde;}
+.use ul{display:flex; align-items: center;justify-content: space-between; height:100%;}
+
+.use ul li{overflow:hidden; width:calc(100% / 3 - 20px);}
+.use ul li a{display:block;}
+.use ul li a > span{float:left; width:33%;}
+.use ul li a > div{float:right; width:60%; color:#fff; font-size:15px; font-weight:500;}
+.use ul li a > div p{font-size:11px;color:#000;font-weight:300;line-height:130%; margin-top:7px;}
+
+/* watch */
+.watch{width:100%; height:738px; padding-top:130px; 
+background:url(../image/view_bg.jpg) no-repeat center center;
+box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;
+}
+.watch .inner{position:relative;} 
+.watch .inner > div{width:375px;}
+.watch .inner > div h2{font-size:30px; font-weight:600; line-height:110%; margin-bottom:20px;}
+.watch .inner > div h2 span{font-weight:400;}
+.watch .inner > div p{font-size:14px; font-weight:500; opacity:0.9; margin-bottom:15px;}
+.watch .inner > div div{font-size:12px;opacity:0.7;margin-bottom:40px; }
+
+.watch .inner > div > ul{display:flex; width:375px;}
+.watch .inner > div > ul + ul{margin-bottom:43px;}
+.watch .inner > div > ul li{font-size:0; margin-right:8px; margin-bottom:8px;}
+
+.watch .inner > div > button{font-size:13px; width:170px; height:40px; background:#486cde;}
+.watch .inner > span{position:absolute; right:10%; top:0;}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title> new document </title>
+  <meta name="generator" content="editplus" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+ </head>
+  <style type="text/css">
+		*{margin:0; padding:0;}
+		body{padding:50px; font-family:"Segoe UI", Helvetica;}
+		h3{display:inline-block;}
+		h2{margin-bottom:100px;}
+		.underline1{
+			font-size:3em;
+			font-weight:700;
+			color:#000;
+			background-image:linear-gradient(transparent 60%, #f8cd07 40%);
+			background-repeat:no-repeat;
+			background-size:100% 100%;
+		}
+		.underline2{
+			line-height:145%;
+			font-size:3em;
+			font-weight:700;
+			color:#000;
+			background-image:linear-gradient(transparent 60%, #f8cd07 40%);
+			background-repeat:no-repeat;
+			background-size:100% 100%;
+		}
+		.underlineOver{
+			line-height:145%;
+			font-size:3em;
+			font-weight:700;
+			color:#000;
+			background-image:linear-gradient(transparent 60%, #f8cd07 40%);
+			background-repeat:no-repeat;
+			background-size:0% 100%;
+			transition:all 0.8s;
+		}
+		.underlineOver:hover{background-size:100% 100%;}
+
+
+	</style>
+
+ <body>
+
+ 	<h3 class="underline1">Generator Keywords Description</h3>
+	<h2><span class="underline2">Generator Keywords Description</span></h2>
+	<h1><span class="underlineOver">Generator Keywords Description</span></h1>
+  
+ </body>
+</html>

@@ -51,9 +51,12 @@ header h1.logo {
 } /*반응형일때 고려*/
 
 /*visual*/
-
+.visual {
+  height: 799px;
+}
 .visual img {
   width: 100%;
+  height: 799px;
 }
 .visual .vis_inner {
   position: absolute;

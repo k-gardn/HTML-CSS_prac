@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+
+	<script language="JavaScript">
+	hak = prompt("월을 입력하세요","3"); //초기값
+	function sum(){
+		result = 0
+		/*do{수행문} while(조건) 조건이 거짓으로 평가될때까지 지정된 구문을 실행 단,
+		구문이 실행된 뒤에 테스트 조건이 평가되므로 구문은 무조건 한번은 실행*/
+
+		do{
+			inputvalue = prompt("숫자를 입력하세요. 0을 입력하면 끝납니다.", "0");
+			if(isNaN(inputvalue) == true){
+				alert("숫자가 아닌 값을 입력했습니다, 숫자를 입력하세요.")
+			} else{
+				result += eval(inputvalue)
+			}
+		}
+		while(inputvalue != 0 )
+		document.write("입력받은 총 합계는", result, "입니다.");
+	}
+  </script>
+
+ </head>
+ <body>
+ 	<script language="JavaScript">
+		sum();
+	</script>
+	
+ </body>
+</html>
